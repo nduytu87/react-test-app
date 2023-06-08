@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+DEMO LINK: https://react-test-app-delta.vercel.app/
+
 ### Installing
 
 1. Clone the repository to your local machine:
