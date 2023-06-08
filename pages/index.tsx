@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>Welcome</h1>
+        <h1 className="text-center text-5xl">Welcome</h1>
       </main>
     </div>
   );

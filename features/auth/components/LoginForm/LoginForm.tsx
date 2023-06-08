@@ -61,10 +61,8 @@ export const LoginForm: React.FC<LoginFormProps> = () => {
 
       <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
         <Space>
-          <Button onClick={() => router.back()} className="bg-gray-400 hover:bg-gray-300">
-            Cancel
-          </Button>
-          <Button type="primary" htmlType="submit" disabled={isLoading} className="bg-blue-500">
+          <Button onClick={() => router.back()}>Cancel</Button>
+          <Button type="primary" htmlType="submit" loading={isLoading} className="bg-blue-500">
             Submit
           </Button>
         </Space>
